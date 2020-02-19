@@ -5,11 +5,10 @@ const pageContent = {
             {text: 'm.groesbeck@gmail.com', link: 'mailto:m.groesbeck@gmail.com'},
             {text: 'GitHub page', link: 'https://github.com/MMGroesbeck'}
         ],
-        mission: '',
-        text: ''
+        mission: 'Seeking a first position as a full stack web developer. BA in Comparative Literature from UC Riverside. Certificate in Biostatistics. Experienced tutor. Mathematical puzzle enthusiast.'
     },
     skills: {
-        intro: 'Student at Lambda School in Full Stack Web Development',
+        intro: 'Web Development Student at Lambda School',
         items: ['HTML & CSS', 'JavaScript', 'React'],
         outro: 'Watch this page for further updates.'
     },

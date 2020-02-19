@@ -170,21 +170,77 @@ font-family: 'EB Garamond', serif;
   border: 1px solid #1e1e1e;
 }
 h2 {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-size: 1.6rem;
+  padding: 0.5rem 0;
 }
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.7rem 0.3rem;
+}
+p a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+p ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.entry-point div {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px auto;
 }
 .about-container {
-  width: 80%;
+  width: 50%;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px red solid;
+  position: relative;
 }
 .about-container img {
   position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  right: 0;
+  z-index: -1;
+}
+.about-container .about-text {
+  margin: 0;
+  width: 45%;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+}
+.about-container .about-text a {
+  color: silver;
+}
+.about-container .about-text a:hover {
+  color: gray;
+}
+.info-box {
+  display: flex;
   width: 100%;
+  flex-flow: column nowrap;
+  background-color: silver;
+  color: #323232;
+}
+.info-box a {
+  color: dimgray;
+}
+.info-box a:hover {
+  color: gray;
+}
+.skills-container {
+  width: 40%;
+  position: relative;
+  left: -15%;
+}
+.projects-container {
+  width: 40%;
+  position: relative;
+  left: 15%;
+}
+.invisible {
+  opacity: 0;
 }
 .footer {
   width: 100%;
