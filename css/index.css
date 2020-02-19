@@ -129,7 +129,80 @@ table {
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url('../img/bgcompressed.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1e1e1e;
+}
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'EB Garamond', serif;
   */
+.navbar {
+  width: 100%;
+  background-color: dimgray;
+  color: whitesmoke;
+  display: flex;
+  align-items: flex-end;
+}
+.navbar h1 {
+  white-space: nowrap;
+  font-size: 2.4rem;
+  font-family: "EB Garamond", serif;
+  padding: 1%;
+}
+.navbar nav {
+  display: flex;
+  padding: 0.5%;
+  color: silver;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar nav a {
+  text-decoration: none;
+  color: silver;
+}
+.navbar nav a:hover {
+  border: 1px solid #1e1e1e;
+}
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.6rem;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+.about-container {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px red solid;
+}
+.about-container img {
+  position: absolute;
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  background-color: silver;
+  color: #323232;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+.footer a:hover {
+  border: 1px solid #1e1e1e;
+}

@@ -7,12 +7,12 @@ const pageContent = {
         ],
         mission: '',
         text: ''
-    }
+    },
     skills: {
         intro: 'Student at Lambda School in Full Stack Web Development',
         items: ['HTML & CSS', 'JavaScript', 'React'],
         outro: 'Watch this page for further updates.'
-    }
+    },
     projects: {
         title: 'Projects',
         items: [
@@ -23,7 +23,7 @@ const pageContent = {
                 description: 'marketing page for machine-learning-based image-analysis app',
                 deployedLink: 'https://pic-metric.github.io/marketing/',
                 gitHubLink: 'https://github.com/pic-metric/marketing'
-            }
+            },
             {
                 title: 'this page',
                 role: 'Developer',
