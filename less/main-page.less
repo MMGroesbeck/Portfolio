@@ -1,0 +1,120 @@
+h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  a {
+    font-size: 1rem;
+  }
+  padding: 0.7rem 0.3rem;
+}
+
+.entry-point {
+  div {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px auto;
+  }
+}
+
+.about-container {
+  width: 50%;
+  background-color: @transparent;
+  position: relative;
+  img {
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    right: 0;
+    z-index: -1;
+  }
+  .about-text {
+    margin: 0;
+    width: 45%;
+    background-color: @page-bg;
+    color: @light-text;
+    padding: 0.3rem;
+    a {
+      color: @dim-text;
+      &:hover {
+        color: @fade-text;
+      }
+    }
+  }
+}
+
+.info-box {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  background-color: @light-bg;
+  background-image: @text-bg-grad;
+  color: @dark-text;
+  padding: 0.3rem;
+  a {
+    color: @dark-bg;
+    &:hover {
+      color: @fade-text;
+    }
+  }
+  ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: @dark-bg;
+  }
+}
+
+.skills-container {
+  width: 40%;
+  position: relative;
+  left: -15%;
+  align-items: flex-end;
+}
+
+.projects-wrapper {
+  background-color: @page-bg;
+  width: 40%;
+  position: relative;
+  left: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  color: @light-text;
+}
+
+.project-container {
+  width: 85%;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  background-image: @text-bg-grad;
+  margin: 0;
+  padding: 0.8rem;
+  color: @dark-text;
+  a {
+    color: @dark-bg;
+    &:hover {
+      color: @fade-text;
+    }
+    font-size: 1.6rem;
+  }
+}
+
+.fadeable {
+    -webkit-transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.7s ease-in-out;
+    -o-transition: opacity 0.7s ease-in-out;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.invisible {
+  opacity: 0;
+}
