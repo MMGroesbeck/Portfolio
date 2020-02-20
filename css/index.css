@@ -170,6 +170,7 @@ font-family: 'EB Garamond', serif;
 .navbar nav a {
   text-decoration: none;
   color: silver;
+  cursor: pointer;
 }
 .navbar nav a:hover {
   border: 1px solid #1e1e1e;
