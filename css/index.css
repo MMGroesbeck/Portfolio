@@ -137,6 +137,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #1e1e1e;
+  background-position: center;
 }
 a {
   text-decoration: underline;
