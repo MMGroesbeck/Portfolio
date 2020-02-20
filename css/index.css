@@ -138,6 +138,7 @@ body {
   background-size: cover;
   background-color: #1e1e1e;
   background-position: center;
+  height: 100vh;
 }
 a {
   text-decoration: underline;
@@ -193,6 +194,7 @@ p a {
   font-size: 1rem;
 }
 .entry-point {
+  position: relative;
   padding-bottom: 3rem;
 }
 .entry-point div {
@@ -204,6 +206,13 @@ p a {
   width: 50%;
   background-color: rgba(0, 0, 0, 0);
   position: relative;
+}
+@media (max-width: 500px) {
+  .about-container {
+    width: 60%;
+    position: absolute;
+    left: 25%;
+  }
 }
 .about-container img {
   position: absolute;
@@ -251,6 +260,13 @@ p a {
   left: -15%;
   align-items: flex-end;
 }
+@media (max-width: 500px) {
+  .skills-container {
+    width: 50%;
+    position: absolute;
+    left: 10%;
+  }
+}
 .projects-wrapper {
   background-color: #1e1e1e;
   width: 40%;
@@ -260,6 +276,12 @@ p a {
   flex-flow: column nowrap;
   align-items: flex-start;
   color: whitesmoke;
+}
+@media (max-width: 500px) {
+  .projects-wrapper {
+    width: 50%;
+    left: 20%;
+  }
 }
 .project-container {
   width: 85%;
