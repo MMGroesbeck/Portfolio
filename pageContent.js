@@ -28,7 +28,7 @@ const pageContent = {
                 role: 'Developer',
                 tech: 'HTML | CSS | JavaScript',
                 description: 'early and evolving profile and projects page',
-                deployedLink: '#',
+                deployedLink: 'https://mgroesbeck.com',
                 gitHubLink: 'https://github.com/mmgroesbeck/portfolio'
             }
         ]
