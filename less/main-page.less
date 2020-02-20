@@ -19,6 +19,7 @@ p {
 }
 
 .entry-point {
+  position: relative;
   div {
     display: flex;
     flex-flow: column nowrap;
@@ -31,6 +32,11 @@ p {
   width: 50%;
   background-color: @transparent;
   position: relative;
+  @media @phone {
+    width: 60%;
+    position: absolute;
+    left: 25%;
+  }
   img {
     position: absolute;
     max-height: 100%;
@@ -79,6 +85,11 @@ p {
   position: relative;
   left: -15%;
   align-items: flex-end;
+  @media @phone {
+    width: 50%;
+    position: absolute;
+    left: 10%;
+  }
 }
 
 .projects-wrapper {
@@ -90,6 +101,10 @@ p {
   flex-flow: column nowrap;
   align-items: flex-start;
   color: @light-text;
+  @media @phone {
+    width: 50%;
+    left: 20%;
+  }
 }
 
 .project-container {
