@@ -190,6 +190,9 @@ p {
 p a {
   font-size: 1rem;
 }
+.entry-point {
+  padding-bottom: 3rem;
+}
 .entry-point div {
   display: flex;
   flex-flow: column nowrap;
